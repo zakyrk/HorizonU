@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="BasicProg11.css" />
+    <title>EL-COOKING</title>
+  </head>
+  <body>
+    <section id="form">
+      <div class="container">
+        <h1>Order Makanan</h1>
+        <form action="" class="mt-10">
+          <label for="pemesanan">Nama Pemesan</label><br />
+          <input class="mb-10" type="text" id="pemesan" /><br />
+
+          <label for="jenisMakanan">Pilih Jenis Makanan:</label><br />
+          <select name="jenisMakanan" id="jenisMakanan" class="mb-10">
+            <option value="none" disabled>Jenis Makanan</option>
+            <option value="Indonesian">Nasi Goreng (Indonesian)</option>
+            <option value="Indonesian">Indomie Goreng (Indonesian)</option>
+            <option value="Itali">Pizza (Itali)</option>
+            <option value="west">West</option>
+            <option value="chinese">Chinese</option>
+            <option value="japanese">Japanese</option></select
+          ><br />
+
+          <label for="">Bahan Tambahan: </label> <br />
+          <input
+            type="checkbox"
+            id="tambahan1"
+            name="tambahan1"
+            value="rempah"
+          />
+          <label for="tambahan1">Bawang</label><br />
+          <input
+            type="checkbox"
+            id="tambahan2"
+            name="tambahan2"
+            value="sayur"
+          />
+          <label for="tambahan2">Sawi</label><br />
+          <input
+            type="checkbox"
+            id="tambahan3"
+            name="tambahan3"
+            value="telur"
+          />
+          <label for="tambahan3">Telur</label><br />
+          <input type="checkbox" id="tambahan4" name="tambahan4" value="nasi" />
+          <label for="tambahan4">Cabai</label><br>
+          <input type="checkbox" id="tambahan4" name="tambahan4" value="nasi" />
+          <label for="tambahan4">Tempe</label><br>
+          <input type="checkbox" id="tambahan4" name="tambahan4" value="nasi" />
+          <label for="tambahan4">Saus</label><br>
+
+          <label class="mt-10" for="catatan">Catatan: </label><br />
+          <textarea
+            class="mb-10"
+            name="catatan"
+            id="catatan"
+            rows="4"
+            placeholder="Tambahkan catatan anda"
+          ></textarea
+          ><br />
+
+          <button type="submit">Pesan</button>
+        </form>
+      </div>
+    </section>
+    
+  </body>
+</html>

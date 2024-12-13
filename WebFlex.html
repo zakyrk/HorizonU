@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Cooking Recipes</title>
+    <link rel="icon" href="M.webp" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: auto;
+        padding: 0;
+        background-color: #fffbf2;
+      }
+      header {
+        background-color: #ff7043;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+      }
+      .recipes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+      }
+      .recipe-card {
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 15px;
+        width: 30%;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+      .recipe-card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
+      .details{ 
+        border-radius: 20px;
+        color: aliceblue;
+        padding: 5px 10px;
+        background-color: #ff7043;
+        cursor: pointer;
+        border: 3px solid #ff7043;
+      }
+      .details:hover{
+        color: black;
+        background-color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>El Cooking Recipes</h1>
+    </header>
+    <section class="recipes">
+      <div class="recipe-card">
+        <img src="spagheti.jpg" alt="Spaghetti Carbonara" />
+        <h3>Spaghetti Carbonara</h3>
+        <p>A classic Italian pasta dish.</p>
+        <input type="button" value="Details" class="details" onclick="window.location.href='recipeSpagheti.html';"></input>
+        
+      </div>
+      <div class="recipe-card">
+        <img src="chicken-curry.jpg" alt="Chicken Curry" />
+        <h3>Chicken Curry</h3>
+        <p>Rich and flavorful Indian dish.</p>
+        <input type="button" value="Details" class="details" onclick="window.location.href='recipeSpagheti.html';"></input>
+
+      </div>
+      <div class="recipe-card">
+        <img src="chocolate cake.jpg" alt="Chocolate Cake" />
+        <h3>Chocolate Cake</h3>
+        <p>Decadent and moist chocolate dessert.</p>
+        <input type="button" value="Details" class="details" onclick="window.location.href='recipeSpagheti.html';"></input>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- Tanpa Flexbox
+
+.recipes {
+    display: block;
+}
+.recipe-card {
+    margin-bottom: 20px;
+    text-align: center;
+} -->

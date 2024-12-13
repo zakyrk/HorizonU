@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #16213E;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: #0f3460;
+    overflow: hidden;
+}
+.card .title h1{
+    font-family:Gilroy;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+.card .title p{
+    font-family:'Open Sans';
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    height: 50px ;
+}
+.card .image .inner{
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.card .image .inner img{
+    width: 100px;
+}
+.card .image{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.card .name{
+    text-align: center;
+    color: white;
+    font-family: Gilroy;
+    font-weight: bold;
+}
+.card .image .outer{
+    background-color: blueviolet;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.card .details{
+    background-color: blueviolet;
+    font-family: Gilroy;
+    height: 40%;
+    margin-top: 10%;
+    border-top-right-radius: 75px;
+    padding: 10%;
+    color: white;
+}
+.card .details li{
+    margin-top: 2%;
+}
+
+
