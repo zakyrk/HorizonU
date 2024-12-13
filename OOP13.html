@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymorphism</title>
+</head>
+<body>
+    <h2>Wawancara kelompok El Cooking</h2>
+    <script>
+        //Parent Class
+        class Cooking {
+            name(){
+                return "Sebutkan nama kawanmu";
+            }
+            favoritCook() {
+                return "Masakan yg di sukai";
+            }
+            Technic() {
+                return "Teknik masakan yg di pakai";
+            }
+        }
+
+        //Child Classes
+        class PatriciaPainting extends Cooking {
+            name() {
+                return "Patricia";
+            }
+            favoritCook() {
+                return "Ayam Bakar";
+            }
+            Technic() {
+                return "Bakar";
+            }
+        }
+
+        class prasetioCoffee extends Cooking {
+            name() {
+                return "Prasetio";
+            }
+            favoritCook() {
+                return "Sup Ayam";
+            }
+            Technic() {
+                return "Rebus";
+            }
+        }
+
+        class sarahGamers extends Cooking {
+            name() {
+                return "Sarah";
+            }
+            favoritCook() {
+                return "Mie Ayam";
+            }
+            Technic() {
+                return "Rebus";
+            }
+        }
+
+        class wulanGardening extends Cooking {
+            name() {
+                return "Wulan";
+            }
+            favoritCook() {
+                return "Telur Mata Sapi";
+            }
+            Technic() {
+                return "Goreng";
+            }
+        }
+
+        class ferdiTraveling extends Cooking {
+            name() {
+                return "Ferdi";
+            }
+            favoritCook() {
+                return "Steak";
+            }
+            Technic() {
+                return "Panggang";
+            }
+        }
+
+        // Contoh Penggunaan
+        const Patricia = new PatriciaPainting();
+        const Prasetio = new prasetioCoffee();
+        const Wulan = new wulanGardening();
+        const Sarah = new sarahGamers();
+        const Ferdi = new ferdiTraveling();
+
+        document.writeln(Patricia.name() + "<br>" + " Masakan yg disukai :  " + Patricia.favoritCook() + "<br>" + " teknik yg di gunakan saat memasak : " + Patricia.Technic() + "<br>");
+        document.writeln(Wulan.name() + "<br>" + " Masakan yg disukai :  " + Wulan.favoritCook() + "<br>" + " teknik yg di gunakan saat memasak : " + Wulan.Technic() + "<br>");
+        document.writeln(Sarah.name() + "<br>" + " Masakan yg disukai :  " + Sarah.favoritCook() + "<br>" + " teknik yg di gunakan saat memasak : " + Sarah.Technic() + "<br>");
+        document.writeln(Prasetio.name() + "<br>" + " Masakan yg disukai :  " + Prasetio.favoritCook() + "<br>" +  " teknik yg di gunakan saat memasak : " + Prasetio.Technic() + "<br>");
+        document.writeln(Ferdi.name() + "<br>" + " Masakan yg disukai :  " + Ferdi.favoritCook() + "<br>" + " teknik yg di gunakan saat memasak : " + Ferdi.Technic());
+    </script>
+</body>
+</html>
