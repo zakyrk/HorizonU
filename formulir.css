@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80vh
+}
+body{
+    background-color:#0f3460 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}   
+.Form{
+    color: aqua;
+    font-weight: bold;
+    text-align: center;
+    /* background-color: blue; */
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+       
+}
+.submit{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 100px;
+    height: 6%;
+    font-weight: bold;
+}
+.submit:hover{
+    color: black;
+    cursor: pointer;
+}
+.input{
+    height: 25px;
+    border-radius: 5px;
+    width: 200px;
+}
