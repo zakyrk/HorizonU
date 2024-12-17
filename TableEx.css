@@ -1,0 +1,12 @@
+body{
+    margin: 20px;
+    color: white;
+    
+}
+table{
+    border: 2px #ff5722;
+    border-radius: 5px;
+}
+table thead{
+    background-color: #ffccbc;
+}

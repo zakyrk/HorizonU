@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EL-COOKING Web's</title>
+    <link rel="shortcut icon" href="E.jpg" type="image/x-icon" />
+    <style>
+      header {
+        background-color: #16213e;
+        padding: 20px;
+        text-align: center;
+        color: white;
+      }
+
+      footer {
+        background-color: #16213e;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        bottom: 0;
+        position: fixed;
+      }
+      .row {
+        content: "";
+        display: flex;
+        clear: both;
+        height: 75vh;
+      }
+
+      .column {
+        float: left;
+        width: 20%;
+        padding: 25px;
+        margin: 5px;
+        background-color: #0f3460;
+        text-align: center;
+        color: white;
+      }
+      .column2 {
+        float: right;
+        width: 200%;
+        padding: 100px;
+        margin: 5px;
+        background-color: #0f3460;
+        text-align: center;
+        color: white;
+      }
+      ul {
+        padding: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      .image {
+        width: 50px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img class="image" src="logo.jpg" alt="logo" />
+      <h1>El Cooking Community</h1>
+    </header>
+
+    <div class="row">
+      <div class="column">
+        <nav>
+          <ul>
+            <a href="TableEx.html" target="iframe">Resep Masakan Favorit</a>
+          </ul>
+          <ul>
+            <a href="ProfileCard.html" target="iframe">Profile Chef</a>
+          </ul>
+          <ul>
+            <a href="FormEx.html" target="iframe">Form pemesanan</a>
+          </ul>
+        </nav>
+      </div>
+      <div class="column2">
+        <iframe name="iframe"> </iframe>
+      </div>
+    </div>
+
+    <footer>
+      Copyleft. Cooking HorizonU 2024
+      <a
+        href="https://www.instagram.com/zakyyrafi"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        || Media Sosial ||</a
+      >
+    </footer>
+  </body>
+</html>
